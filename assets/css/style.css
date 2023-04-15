@@ -1,0 +1,82 @@
+/* common selector start */
+
+:root {
+    --brand-color: #50B66C;
+    --primary-color:  #FBFBFB;
+    --Secondary-color:  #3C8D53;
+    --color-white: #fff;
+    --color-dark: #000;
+    --border-width: 2px;
+    --btn-padding: 10px 65px;
+}
+
+/*nav section start*/
+.navbar{
+	background: var(--primary-color);
+}
+.navbar .fast_button{
+	background: var(--primary-color);
+	color: var(--Secondary-color);
+	border: var(--primary-color);
+}
+.navbar .fast_button:hover{
+	background: var(--brand-color);
+	color: var(--color-white);
+	border: var(--brand-color);
+}
+.navbar .second_button{
+	background: var(--brand-color);
+	color: var(--color-white);
+	border: var(--brand-color);
+}
+.navbar .second_button:hover{
+	background: var(--Secondary-color);
+	color: var(--color-white);
+	border: var(--Secondary-color);
+}
+.nav-link{
+	color: var(--color-dark);
+}
+.navbar .navbar-nav a:hover{
+	color:var(--brand-color);
+	text-decoration: underline;
+}
+/*nav section end */
+/* header section :start */
+.header_section{
+	background: var(--primary-color);
+}
+.header_section .header_aside h1{
+	font-family: Rubik, sans-serif;
+	font-weight: 700;
+	font-size: 52px;
+}
+.header_section .btn-primary{
+	background: var(--brand-color);
+	border: var(--brand-color);
+}
+.header_section .btn-primary:hover{
+	background: var(--Secondary-color);
+}
+/* header section :end */
+/* service section :start */
+.service_section{
+	background: var(--color-white);
+}
+.service_section .ourServices{
+	color: var(--brand-color);
+}
+/* service number & numbers section start */
+.service_section .number_section{
+	color: #917AEB;
+	width: 70px;
+	height: 70px;
+	background: #E9E4FB;
+}
+.service_section .numbers_section{
+	color: #51B56D;
+	width: 70px;
+	height: 70px;
+	background: #DCF0E2;
+}
+/* service section :end */
