@@ -51,11 +51,13 @@
 	font-weight: 700;
 	font-size: 52px;
 }
-.header_section .btn-primary{
+.header_section .btn-primary,
+.about_section .btn-primary{
 	background: var(--brand-color);
 	border: var(--brand-color);
 }
-.header_section .btn-primary:hover{
+.header_section .btn-primary:hover,
+.about_section .btn-primary:hover{
 	background: var(--Secondary-color);
 }
 /* header section :end */
@@ -63,7 +65,9 @@
 .service_section{
 	background: var(--color-white);
 }
-.service_section .ourServices{
+.service_section .ourServices,
+.about_section .ourServices,
+.defference .ourServices{
 	color: var(--brand-color);
 }
 /* service number & numbers section start */
@@ -79,4 +83,31 @@
 	height: 70px;
 	background: #DCF0E2;
 }
+.services_hover:hover {
+	--bs-bg-opacity: 1;
+	background-color: rgba(var(--brand-color),var(--bs-bg-opacity)) !important;
+}
 /* service section :end */
+/* .about_section :start */
+.about_section{
+	background: #FBFBFB;
+}
+/* .about_section :end */
+/* .deference_section :start */
+.defference .number_section{
+	color: #917AEB;
+	width: 100px;
+	height: 80px;
+	background: #E9E4FB;
+}
+.defference .numbers_section{
+	color: #51B56D;
+	width: 100px;
+	height: 80px;
+	background: #DCF0E2;
+}
+.deference_aside:hover {
+	--bs-bg-opacity: 1;
+	background-color: rgba(var(--brand-color),var(--bs-bg-opacity)) !important;
+}
+/* .deference_section :end */
