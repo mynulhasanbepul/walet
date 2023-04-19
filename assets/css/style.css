@@ -70,7 +70,8 @@
 .defference .ourServices,
 .pricing_section .ourServices,
 .sevice_holder .ourServices,
-.question_section .ourServices
+.question_section .ourServices,
+.footer_section .ourServices
 {
 	color: var(--brand-color);
 }
@@ -190,3 +191,24 @@
 
 }
 /* question_section :end */
+/* .footer_section :start */
+.footer_section a{
+	text-decoration: none;
+	display: flex;
+	margin-top: 10px;
+	font-size: 20px;
+	color: var(--color-dark);
+}
+.footer_section .subscribe_section{
+	background: #f5f4f7;
+}
+.footer_section .btn-outline-secondary{
+	background: var(--brand-color);
+	color: #fff;
+	font-size: 40px;
+	font-weight: 900;
+}
+.footer_section .turms_conditions a:hover{
+	color: var(--brand-color);
+}
+/* .footer_section :end */
