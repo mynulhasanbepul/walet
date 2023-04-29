@@ -117,30 +117,30 @@
 }
 /* .deference_section :end */
 /* .pricing_section :start */
-.pricing_section .pricing_sub_section {
-	position: relative;
-	height: 500px;
+
+.nav-pills {
+    --bs-nav-pills-border-radius: var(--bs-border-radius);
+    --bs-nav-pills-link-active-color: #fff;
+    --bs-nav-pills-link-active-bg: var(--brand-color);
 }
-.pricing_section .recive_section {
-	top: 535%;
-	left: 200px;
-	position: absolute;
-	background:#fff;
-	max-width: 70%;	
+.nav {
+  --bs-nav-link-hover-color: var(--brand-color);
+  --bs-nav-link-hover-background: var(--brand-color);
+  list-style: none;
 }
-.pricing_section .fast_price_button{
-	background: var(--brand-color);
-}
-.pricing_section .second_price_button:hover,
-.pricing_section .third_price_button:hover {
+.nav-link:hover{
 	background: #E0F2E5;
 }
-
+.recive_section{
+	background: var(--color-white);
+	margin-left: 100px;
+	margin-right: 100px;
+}
 /* .pricing_section :end */
 /* sevice_holder :start */
 .sevice_holder{
 	background-color: var(--primary-color);
-	margin-top: 280px;
+	margin-top: 80px;
 	padding-bottom: 150px;
 	opacity: 1;
 }
