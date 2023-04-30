@@ -147,12 +147,12 @@
 .sevice_holder .ourServices{
 	margin-top: 100px;
 }
-.sevice_holder .ourServices_people{
-	margin-left: 320px;
-	width: 500px;
+.sevice_holder .ourServices_people {
+	/* margin-left: 320px;
+	max-width: 500px; */
 }
 .sevice_holder .ourServices_section{
-	margin-left: 300px;	
+	/* margin-left: 300px;	 */
 }
 .sevice_holder .holder_person{
 	background: var(--color-white);
@@ -164,6 +164,10 @@
 }
 
 /* holder_name :end */
+/* service_holder_navigation start */
+.mix{
+	display: none;
+  }
 
 /* sevice_holder :end */
 /* question_section :start */
